@@ -8,7 +8,7 @@ document.body.append(textBlock);
 const button = document.createElement("button");
 button.textContent = "Switch color";
 document.body.append(button);
-button.style.color = 'black'
+button.style.color = "black";
 
 function changeColor(item, switcher) {
   switcher.onclick = () => {
